@@ -93,3 +93,23 @@ body {
     grid-column: span 2;
     /* spans it into 2 cols */
 }
+
+/* ver 1.1 (made it more responsive) */
+
+@media screen  and (width <=1024px) {
+    .container{ 
+        flex-direction: column;
+
+    }
+    .left-box{
+        width: 80%;
+    }
+    .right-box{
+        width: 100%;
+    }
+    .box{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+   
+}
